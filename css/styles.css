@@ -3,33 +3,37 @@ font-family: 'Ubuntu', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
 
-
-#title {
-  color: white;
-  background-color: #ff4c68;
-  position: relative;
-}
-
-.container-fluid {
-  padding: 3% 15% 12%;
-}
-
-h1 {
+body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Headings */
+.big-heading {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
+.section-heading {
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
+#title {
+  color: white;
+  background-color: #ff4c68;
+  position: relative;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 12%;
 }
 
 /* NavBar */
@@ -49,9 +53,9 @@ body {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: 'Montserrat';
   font-weight: lighter;
 }
+
 
 /* Download Buttons */
 .download-btn {
@@ -59,6 +63,7 @@ body {
 }
 
 /* Title Image */
+
 .title-img {
   width: 55%;
   position: absolute;
@@ -68,7 +73,6 @@ body {
 
 /* Features */
 #features {
-  text-align: center;
   padding: 10% 15%;
   position: relative;
   z-index: 1;
@@ -88,7 +92,6 @@ body {
 }
 
 .feature-heading {
-  font-family: 'Montserrat';
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -101,7 +104,6 @@ body {
 
 /* Testimonials */
 #testimonials {
-  text-align: center;
   padding: 0 3%;
   background-color: #ef8172;
   color: #fff;
@@ -110,6 +112,9 @@ body {
 .testimonial-text {
   width: 80%;
   margin: 0 auto;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -123,7 +128,6 @@ body {
 }
 
 #press {
-  text-align: center;
   background-color: #ef8172;
   padding-bottom: 3%;
 }
@@ -137,11 +141,16 @@ body {
 
 #pricing {
   padding: 8%;
-  text-align: center;
 }
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+.price-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 @media (max-width:1028px) {
@@ -153,4 +162,36 @@ body {
     position:static;
     transform: rotate(0);
   }
+}
+
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  padding: 8% 7%;
+}
+
+.cta-text {
+  padding: 1% 0;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Footer */
+#footer {
+  margin: 5% auto;
+  color: #8f8f8f;
+  font-size: 1.2rem;
+  line-height: 3;
+}
+
+.footer-icon {
+  padding: 0 12px;
+  font-size: 1.7rem;
+}
+
+.footer-icon:hover {
+  color: #000;
 }
