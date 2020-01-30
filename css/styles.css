@@ -1,8 +1,8 @@
 /*
+Imported Fonts:
 font-family: 'Ubuntu', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
-
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -25,9 +25,18 @@ h1, h2, h3 {
   line-height: 1.5;
 }
 
-#title {
-  color: white;
+/* Coloring Sections  */
+.colored-section {
+  color: #fff;
   background-color: #ff4c68;
+}
+
+.white-section {
+  background: #fff;
+}
+
+/* Title Page */
+#title {
   position: relative;
   text-align: left;
 }
@@ -56,14 +65,12 @@ h1, h2, h3 {
   font-weight: lighter;
 }
 
-
 /* Download Buttons */
 .download-btn {
   margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
-
 .title-img {
   width: 55%;
   position: absolute;
@@ -76,7 +83,6 @@ h1, h2, h3 {
   padding: 10% 15%;
   position: relative;
   z-index: 1;
-  background-color: #fff;
 }
 
 .feature-col {
@@ -87,6 +93,7 @@ h1, h2, h3 {
   color: #ef8172;
   margin-bottom: 1rem;
 }
+
 .feature-img:hover {
   color: #ff4c68;
 }
@@ -106,7 +113,6 @@ h1, h2, h3 {
 #testimonials {
   padding: 0 3%;
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -138,7 +144,6 @@ h1, h2, h3 {
 }
 
 /* Pricing */
-
 #pricing {
   padding: 8%;
 }
@@ -159,14 +164,13 @@ h1, h2, h3 {
   }
 
   .title-img {
-    position:static;
+    position: static;
     transform: rotate(0);
   }
 }
 
 /* CTA */
 #cta {
-  background-color: #ff4c68;
   padding: 8% 7%;
 }
 
@@ -174,7 +178,6 @@ h1, h2, h3 {
   padding: 1% 0;
   font-size: 3rem;
   font-weight: 900;
-  color: #fff;
   width: 60%;
   margin: 0 auto;
 }
